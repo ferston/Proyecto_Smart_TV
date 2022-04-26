@@ -11,6 +11,8 @@ public class Pruebas {
         System.out.println("Acciones de la pantalla lg");
         lg1.Encender();
         lg1.Netflix();
+        lg1.MostrarMEnu();
         lg1.Apagar();
+
     }
 }

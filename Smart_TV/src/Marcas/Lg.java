@@ -18,6 +18,11 @@ public class Lg extends WebOs {
         this.menu = menu;
     }
 
+    @Override
+    public void MostrarMEnu() {
+        System.out.println("Hola soy el menu de LG");
+    }
+
     public void MostrarEspecificaciones(){
         System.out.println("Marca: "+ getMarca() +
                       " , pualgadas: "+ 45+
